@@ -19,7 +19,7 @@
 'use client';
 
 import type { tellJoke } from '@/genkit/joke';
-import { runFlow, streamFlow } from '@genkit-ai/next/client';
+import { runFlow, streamFlow } from 'genkit/beta/client';
 import { useEffect, useRef, useState } from 'react';
 import styles from './page.module.css';
 
